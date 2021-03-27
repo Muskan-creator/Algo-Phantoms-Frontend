@@ -119,6 +119,12 @@ header {
 .nav-items:hover {
     color: #3caea3 !important;
 }
+.dropdown-menu{
+    background-color:black;
+}
+.dropdown-item{
+    color: #3caea3;
+}
 
 .banner-text {
     position: absolute;
@@ -408,6 +414,16 @@ hr {
     background-color: transparent !important;
     transition: 0.4s;
 }
+#follow{
+    color:white;
+   
+   background-color:#39A69D;
+}
+#follow:hover{
+    color:#17a2b8;
+    background-color: white;
+    border-radius: 50%;
+}
 
 
 
@@ -421,6 +437,7 @@ hr {
     font-size: 14px;
     letter-spacing: 0.6px !important;
 }
+
 
 
 /* for scroll to top button */
@@ -511,6 +528,7 @@ hr {
     .wrapper {
         max-width: 700px;
         flex-direction: column;
+       
     }
     .round-1 {
         display: none;
@@ -566,6 +584,7 @@ hr {
     .wrapper {
         max-width: 30px;
         flex-direction: column;
+        align-content: space-between;
     }
     .round-1 {
         display: none;
